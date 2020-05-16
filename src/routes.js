@@ -6,7 +6,7 @@ import Main from './pages/main';
 
 function Routes() {
   return (
-    <Stack.Navigator initialRouteName="Main">
+    <Stack.Navigator initialRouteName="Main" screenOptions={defaultStyles}>
       <Stack.Screen
         name="Main"
         component={Main}
@@ -18,5 +18,12 @@ function Routes() {
     </Stack.Navigator>
   );
 }
+
+let defaultStyles = {
+  headerStyle: {
+    backgroundColor: '#DA552F',
+  },
+  headerTintColor: '#fff',
+};
 
 export default Routes;
