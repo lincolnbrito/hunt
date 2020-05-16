@@ -3,6 +3,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 const Stack = createStackNavigator();
 
 import Main from './pages/main';
+import Product from './pages/product';
 
 function Routes() {
   return (
@@ -14,6 +15,14 @@ function Routes() {
           title: 'JSHunt',
           headerTitleAlign: 'center',
         }}
+      />
+      <Stack.Screen
+        name="Product"
+        component={Product}
+        options={({route}) => ({
+          title: route.params.product.title,
+          headerTitleAlign: 'center',
+        })}
       />
     </Stack.Navigator>
   );
