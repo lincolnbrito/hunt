@@ -7,7 +7,14 @@ import Main from './pages/main';
 function Routes() {
   return (
     <Stack.Navigator initialRouteName="Main">
-      <Stack.Screen name="Main" component={Main} options={{title: 'Início'}} />
+      <Stack.Screen
+        name="Main"
+        component={Main}
+        options={{
+          title: 'JSHunt',
+          headerTitleAlign: 'center',
+        }}
+      />
     </Stack.Navigator>
   );
 }
