@@ -1,6 +1,7 @@
 <h1 align="center">
   Hunt
 </h1>
+<h4 align="center">Um simples app React Native para listagem de dados via API REST.</h4>
 
 <p align="center">
 <img src="https://img.shields.io/static/v1?label=PR&message=Welcome&color=success" />
@@ -9,10 +10,10 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#computer-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#construction-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#rocket-tecnologias">Tecnologias</a> •
+  <a href="#computer-projeto">Projeto</a> •
+  <a href="#construction-como-contribuir">Como contribuir</a> •
+  <a href="#memo-licença">Licença</a> 
 </p>
 
 <p align="center">
